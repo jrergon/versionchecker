@@ -1,0 +1,14 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^3.3",
+        "swiftmailer/swiftmailer": "6.0"
+    },
+    "require-dev": {
+        "overtrue/phplint": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Helpers\\": "helpers/"
+        }
+    }
+}
